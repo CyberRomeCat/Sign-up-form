@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    margin: 0 auto;
+    border-style: solid;
+    height: 80vh;
+    width: 60vw;
+    border-radius: 5%;
+    background-color: beige;
+}
+
+.img {
+    background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 50%;
+    border-radius: 5%;
+}
+
+form {
+    height: 50%;
+    width: 50%;
+    border-radius: 5%;
+    background-color: white;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input[type="text"] {
+    font-size: medium;
+}
